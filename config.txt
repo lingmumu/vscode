@@ -1,0 +1,60 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "workbench.colorTheme": "Winter Is Coming",
+  "window.zoomLevel": 1,
+  "vetur.validation.template": false,
+  "eslint.autoFixOnSave": true,
+  "editor.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "css.validate": false,
+  "editor.colorDecorators": true,
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.enable": true,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "htmlhint.options": {
+    "doctype-first": false
+  },
+  "window.openFoldersInNewWindow": "on",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "editor.minimap.enabled": true,
+  "prettier.semi": false,
+  "prettier.javascriptEnable": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "prettier.singleQuote": true,
+  "window.menuBarVisibility": "default",
+  "liveServer.settings.donotShowInfoMsg": true
+}
